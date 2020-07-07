@@ -1,0 +1,29 @@
+<div>
+  <mat-card class="example-card">
+
+    <img mat-card-image src={{param1}} alt="Photo of a Shiba Inu">
+    <mat-card-content class="a">
+      <p class="paregraf">
+        a ball
+      </p>
+    </mat-card-content>
+
+    <!-- <mat-card-actions>
+      
+    </mat-card-actions> -->
+
+    <div>
+      <!-- <img src="//img.ltwebstatic.com/images3_pi/2020/05/12/1589266373b377114710e0393a1ce2ab8c786ff602.webp" alt=""> -->
+      <button *ngIf="!selected" mat-icon-button (click)="toggleSelected()">
+        <mat-icon>favorite_border</mat-icon>
+
+      </button>
+      <button *ngIf="selected" (click)="toggleSelected()" mat-icon-button color="warn"
+        aria-label="Example icon button with a heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+    </div>
+
+
+  </mat-card>
+</div>

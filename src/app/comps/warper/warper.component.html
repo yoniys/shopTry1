@@ -1,0 +1,10 @@
+<div class="maindiv">
+    <div *ngFor="let x of data" >
+        <!-- <h2>{{x}}</h2> -->
+<app-item1
+[param1]="x"
+></app-item1>
+</div>
+</div>
+
+<router-outlet ></router-outlet>

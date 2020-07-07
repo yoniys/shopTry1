@@ -1,0 +1,22 @@
+
+.a{max-height: 10px;
+  /* width: 150px; */
+}
+
+/* :: ng deep */
+
+.example-card {
+  border: 1px solid black;
+  border-width: 2px;
+    max-width: 100px;
+    max-height: 250px;
+  }
+  
+  /* .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  } */
+/* div{
+  height:300 ;
+} */
+.paregraf{max-height: 10;}
